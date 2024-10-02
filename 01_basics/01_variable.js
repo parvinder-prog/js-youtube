@@ -1,7 +1,7 @@
 const accountId = 144532
 let accountEmail ="palvi@google.com"
 var accountPassword = "12345"
-accountCity = "Hoshiarpur"
+accountCity = "Hoshiarpur"// we can't use variables this 
 let accountState;
 
 // accountId = 2 // not allowed
@@ -17,4 +17,5 @@ console.table([accountId, accountEmail ,accountPassword, accountCity, accountSta
 /*
 Prefer not to use var 
 because of issue in block scope and functional scope
+so always use let or const to define any variable
 */
