@@ -4,7 +4,7 @@
 // console.log(2 == 1);
 // console.log(2 != 1);
 
- console.log("2" > 1);
+console.log("2" > 1);
 console.log("02" > 1);// comapare only same datatypes values 
 
 // ------------------- this type of comparsion always creates confusion, so avoid this ----------------
