@@ -33,7 +33,7 @@ const url = "https://parvinder.com/parvinder%20kaur" // define variable
 
 console.log(url.replace('%20' , '-')); // '%20' replaces '-' with the help of replace string function
 
-console.log(url.includes('sundar')); // verify any word is available in your string or not . It returns boolean values
+console.log(url.includes('sundar')); // includes string function 
 
 console.log(gameName.split('-')); 
 
@@ -42,6 +42,15 @@ const str1 = 'Hello';
 const str2 = 'World';
 console.log(str1.concat (' ' ,str2)); 
 console.log(str2.concat(' ,' , str1));
+
+// *********************** String Includes function ***************************************
+
+const sentence = 'The brown fox jumps over the lazy dog';
+
+const word = 'hii';
+
+console.log(`The word ${word} ${sentence.includes(word) ? 'is' : 'is not'} in the sentence`);
+
 
 
 
